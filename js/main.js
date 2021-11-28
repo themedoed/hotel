@@ -1,7 +1,16 @@
 $(function(){
     $('.testimonials__slider').slick({
         prevArrow: '<button type="button" class="slick-prev"><img src="images/home/rooms/arrow-left.png" alt="Left-Arrow"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="images/home/rooms/arrow-right.png" alt="Right-Arrow"></button>'
+        nextArrow: '<button type="button" class="slick-next"><img src="images/home/rooms/arrow-right.png" alt="Right-Arrow"></button>',
+        autoplay: true,
+        autoplaySpeed: 2000
+    });
+
+    $('.rooms-slider').slick({
+      arrows: false,  
+      dots: true,
+      autoplay: true,
+      autoplaySpeed: 2000
     });
 });
 

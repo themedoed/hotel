@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/rooms-style.css">
   <link rel="icon" href="images/favicon.ico">
 </head>
 
@@ -27,9 +27,9 @@
         <nav class="menu">
           <a class="header-logo" href="index.html">LUXURY <br><span>HOTELS</span></a>
           <ul class="menu-items">
-            <li class="menu-item menu-item-active"><a class="menu-link" href="index.html">Home</a></li>
+            <li class="menu-item"><a class="menu-link" href="index.html">Home</a></li>
             <li class="menu-item"><a class="menu-link" href="facilities.html">Facilities</a></li>
-            <li class="menu-item"><a class="menu-link" href="rooms.html">Rooms</a></li>
+            <li class="menu-item menu-item-active"><a class="menu-link" href="rooms.html">Rooms</a></li>
             <li class="menu-item"><a class="menu-link" href="#">Contact-us</a></li>
           </ul>
         </nav>
@@ -71,39 +71,83 @@
   <!-- Комнаты -->
   <div class="rooms" id="hook">
     <div class="container">
-      <p class="rooms-text">
-        All our room types are including complementary breakfast
+      <h2 class="title">
+        ROOMS AND RATES
+      </h2>
+      <p class="rooms__text">
+        Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And
+        yes,
+        comfort isn’t our only objective, we also value good design, sleek contemporary furnishing complemented
+        by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces.
       </p>
-      <div class="rooms__box">
+      <div class="rooms__items">
         <div class="rooms-item">
-          <div class="rooms-item-info">
-            <h3 class="rooms-item-title">Luxury redefined</h3>
-            <p class="rooms-item-text">
-              Our rooms are designed to transport
-              you into an environment made for leisure.
-              Take your mind off the day-to-day of home
-              life and find a private paradise for yourself.
-            </p>
-            <button class="rooms-item-btn">EXPLORE</button>
+          <div class="rooms-slider">
+            <img class="rooms-slide" src="images/rooms/rooms/slider/slide.jpg" alt="room">
+            <img class="rooms-slide" src="images/rooms/rooms/slider/slide.jpg" alt="room">
+            <img class="rooms-slide" src="images/rooms/rooms/slider/slide.jpg" alt="room">
           </div>
-          <img class="rooms-item-img" src="images/home/rooms/room1.jpg" alt="Room">
+          <p class="rooms-title">SINGLE ROOM</p>
+          <div class="rooms-info">
+            <button class="rooms-moreinfo-btn">
+              <div class="rooms-pic">
+                <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="25.5" cy="25.5" r="25.5" fill="#E0B973" />
+                  <line x1="26.5" y1="11" x2="26.5" y2="41" stroke="white" stroke-width="3" />
+                  <line x1="41" y1="26.5" x2="11" y2="26.5" stroke="white" stroke-width="3" />
+                </svg>
+              </div>
+              VIEW ROOM DETAILS
+            </button>
+            <button class="rooms-book-btn">$147  Avg/night</button>
+          </div>
         </div>
         <div class="rooms-item">
-          <div class="rooms-item-info">
-            <h3 class="rooms-item-title">Leave your worries in
-              the sand</h3>
-            <p class="rooms-item-text">
-              We love life at the beach. Being close
-              to the ocean with access to endless sandy
-              beach ensures a relaxed state of mind. It
-              seems like time stands still watching the
-              ocean.
-            </p>
-            <button class="rooms-item-btn">EXPLORE</button>
+          <div class="rooms-slider">
+            <img class="rooms-slide" src="images/rooms/rooms/slider/slide.jpg" alt="room">
+            <img class="rooms-slide" src="images/rooms/rooms/slider/slide.jpg" alt="room">
+            <img class="rooms-slide" src="images/rooms/rooms/slider/slide.jpg" alt="room">
           </div>
-          <img class="rooms-item-img" src="images/home/rooms/room2.jpg" alt="Room">
+          <p class="rooms-title">DOUBLE ROOM</p>
+          <div class="rooms-info">
+            <button class="rooms-moreinfo-btn">
+              <div class="rooms-pic">
+                <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="25.5" cy="25.5" r="25.5" fill="#E0B973" />
+                  <line x1="26.5" y1="11" x2="26.5" y2="41" stroke="white" stroke-width="3" />
+                  <line x1="41" y1="26.5" x2="11" y2="26.5" stroke="white" stroke-width="3" />
+                </svg>
+              </div>
+              VIEW ROOM DETAILS
+            </button>
+            <button class="rooms-book-btn">$155  Avg/night</button>
+          </div>
+        </div>
+        <div class="rooms-item">
+          <div class="rooms-slider">
+            <img class="rooms-slide" src="images/rooms/rooms/slider/slide.jpg" alt="room">
+            <img class="rooms-slide" src="images/rooms/rooms/slider/slide.jpg" alt="room">
+            <img class="rooms-slide" src="images/rooms/rooms/slider/slide.jpg" alt="room">
+          </div>
+          <p class="rooms-title">TWIN ROOM</p>
+          <div class="rooms-info">
+            <button class="rooms-moreinfo-btn">
+              <div class="rooms-pic">
+                <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="25.5" cy="25.5" r="25.5" fill="#E0B973" />
+                  <line x1="26.5" y1="11" x2="26.5" y2="41" stroke="white" stroke-width="3" />
+                  <line x1="41" y1="26.5" x2="11" y2="26.5" stroke="white" stroke-width="3" />
+                </svg>
+              </div>
+              VIEW ROOM DETAILS
+            </button>
+            <button class="rooms-book-btn">$155  Avg/night</button>
+          </div>
         </div>
       </div>
+
+
+
     </div>
   </div>
 
