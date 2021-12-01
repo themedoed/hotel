@@ -209,6 +209,11 @@ textarea:focus {
     background-color: #E0B973;
     border-radius: 10px;
     float: right;
+    transition: all .5s;
+}
+
+.form-btn:hover{
+    background-color: #14274A;
 }
 
 
