@@ -208,6 +208,7 @@ textarea:focus {
     padding: 25px 25px;
     background-color: #E0B973;
     border-radius: 10px;
+    float: right;
 }
 
 
