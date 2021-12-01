@@ -159,6 +159,7 @@ textarea:focus {
 .contact-form__box{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 463px;
 }
 
 .contact-text{
@@ -215,99 +216,6 @@ textarea:focus {
 .form-btn:hover{
     background-color: #14274A;
 }
-
-
-
-
-
-
-.testimonials{
-    margin-top: 46px;
-}
-
-.testimonials-title{
-    text-align: center;
-    margin-bottom: 26px;
-}
-
-.testimonials__slider{
-    margin-bottom: 182px;
-}
-
-.testimonials__slider-item{
-    text-align: center;
-}
-
-.test__slider-item-text{
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 37px;
-    margin-bottom: 19px;
-}
-
-.test__slider-item-author{
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 30px;
-
-}
-
-.slick-arrow{
-    padding: 0;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: #E0B973;
-    cursor: pointer;
-    position: absolute;
-    top: 145%;
-    transform: translateY(-50%);
-    z-index: 5;
-}
-
-.slick-prev{
-    left: 46%;
-}
-
-.slick-next{
-    right: 46%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer{
     /* background-color: #14274A; */
