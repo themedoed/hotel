@@ -1,20 +1,33 @@
 $(function(){
-    $('.testimonials__slider').slick({
-        prevArrow: '<button type="button" class="slick-prev"><img src="images/home/rooms/arrow-left.png" alt="Left-Arrow"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="images/home/rooms/arrow-right.png" alt="Right-Arrow"></button>',
+    $('.solorcas__slider').slick({
+        arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000
-    });
-
-    $('.rooms-slider').slick({
-      arrows: false,  
-      dots: true,
-      autoplay: true,
-      autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 530,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 360,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    vertical: true,
+                    verticalSwiping: true
+                }
+            }
+        ]
     });
 });
 
-const anchors = document.querySelectorAll('.scroll-btn a[href*="#"]')
+// Плавные якоря
+const anchors = document.querySelectorAll('.menu-item a[href*="#"]')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
