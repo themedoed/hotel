@@ -91,6 +91,9 @@ textarea:focus {
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     transition: all .5s;
+    border-bottom: 2px solid #E0B973;
+    border-left: 2px solid #E0B973;
+    border-right: 2px solid #E0B973;
 }
 
 .header-logo span{
@@ -101,6 +104,9 @@ textarea:focus {
 .header-logo:hover{
     background-color: #14274A;
     color: #E0B973;
+    border-bottom: 2px solid #E0B973;
+    border-left: 2px solid #E0B973;
+    border-right: 2px solid #E0B973;
 }
 
 .menu-items{
@@ -159,7 +165,7 @@ textarea:focus {
 .contact-form__box{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 463px;
+    margin-bottom: 488px;
 }
 
 .contact-text{
@@ -183,6 +189,7 @@ textarea:focus {
 
 .contact__form{
     width: 570px;
+    position: relative;
 }
 
 .input-text{
@@ -209,8 +216,8 @@ textarea:focus {
     padding: 25px 25px;
     background-color: #E0B973;
     border-radius: 10px;
-    float: right;
     transition: all .5s;
+    margin-left: auto;
 }
 
 .form-btn:hover{
